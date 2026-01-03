@@ -2,4 +2,5 @@
 
 ## `github-conventional-comments`
 
-For macro PR comments based on [conventional comments](https://conventionalcomments.org/).
+GitHub PR comments based on [conventional comments](https://conventionalcomments.org/)
+with macro support.
