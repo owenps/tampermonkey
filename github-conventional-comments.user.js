@@ -3,7 +3,7 @@
 // @namespace    http://tampermonkey.net/
 // @version      1.1.0
 // @description  Add conventional comments buttons to GitHub PR reviews and issues
-// @author       @owenps
+// @author       owenps
 // @match        https://github.com/*
 // @grant        GM_getValue
 // @grant        GM_setValue
