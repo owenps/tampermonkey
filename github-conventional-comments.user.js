@@ -1,10 +1,10 @@
 // ==UserScript==
 // @name         GitHub Conventional Comments
 // @namespace    http://tampermonkey.net/
-// @version      1.1.2
+// @version      1.1.3
 // @description  Add conventional comments buttons to GitHub PR reviews and issues
 // @author       owenps
-// @match        https://github.com/pull/*
+// @match        https://github.com/*/*/pull/*
 // @grant        GM_getValue
 // @grant        GM_setValue
 // @updateURL    https://raw.githubusercontent.com/owenps/tampermonkey/main/github-conventional-comments.user.js
