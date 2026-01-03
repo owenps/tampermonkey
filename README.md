@@ -4,3 +4,5 @@
 
 GitHub PR comments based on [conventional comments](https://conventionalcomments.org/)
 with macro support.
+
+![github-conventional-comments](assets/github-conventional-comments.png)
