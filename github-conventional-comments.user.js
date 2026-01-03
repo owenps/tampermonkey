@@ -732,6 +732,8 @@
 
   function setupToolbar(textarea) {
     if (textarea.dataset.ccSetup) return;
+    // Skip textareas inside our modal
+    if (textarea.closest(".cc-modal")) return;
     textarea.dataset.ccSetup = "true";
 
     // Find the parent container to insert toolbar
