@@ -4,7 +4,7 @@
 // @version      1.1.1
 // @description  Add conventional comments buttons to GitHub PR reviews and issues
 // @author       owenps
-// @match        https://github.com/pulls/*
+// @match        https://github.com/pull/*
 // @grant        GM_getValue
 // @grant        GM_setValue
 // @updateURL    https://raw.githubusercontent.com/owenps/tampermonkey/main/github-conventional-comments.user.js
