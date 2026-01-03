@@ -470,7 +470,14 @@
     nameInput.focus();
   }
 
-  function applyMacro(textarea, macro) {
+  function applyMacro(toolbar, textarea, macro) {
+    // Clear any selected labels/decorations
+    const state = toolbar.ccState;
+    state.selectedLabel = null;
+    state.selectedDecorations = [];
+    toolbar.querySelectorAll("[data-label]").forEach((btn) => btn.classList.remove("cc-active"));
+    toolbar.querySelectorAll("[data-decoration]").forEach((btn) => btn.classList.remove("cc-active"));
+
     const text = buildCommentText(macro.label, macro.decorations, macro.body);
     textarea.value = text;
     triggerInput(textarea);
@@ -603,7 +610,7 @@
             renderMacros(toolbar, textarea),
           );
         } else {
-          applyMacro(textarea, macro);
+          applyMacro(toolbar, textarea, macro);
         }
       });
 
